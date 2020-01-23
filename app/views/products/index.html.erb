@@ -1,0 +1,6 @@
+<h1>Your Items:</h1>
+	<ol> 
+	<%= session.current_cart.each do |f| %>
+		<li><%= f.product.to_s %></li>
+	<% end %>
+	</ol>

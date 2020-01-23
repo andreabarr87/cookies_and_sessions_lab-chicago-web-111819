@@ -1,0 +1,6 @@
+<h1>Add a Grocery Product:</h1>
+<%= form_for @product do |f| %>
+<%= f.label "Product Name:" %>
+<%= f.text_area :product_name %>
+<%= f.submit "add product" %>
+<% end %>
